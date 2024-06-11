@@ -3,24 +3,24 @@ import styles from './Profile.module.css';
 
 export default function Profile() {
 	return (
-		<div className={styles.profile}>
+		<div class={styles.profile}>
 			<img
 				src={avatarImg}
-				className={styles.image}
+				class={styles.image}
 				width={80}
 				height={80}
 				alt='Jessica Randall'
 			/>
-			<div className={styles['title-box']}>
-				<h2 className={styles.title}>Jessica Randall</h2>
-				<p className={styles.location}>London, United Kingdom</p>
+			<div class={styles['title-box']}>
+				<h2 class={styles.title}>Jessica Randall</h2>
+				<p class={styles.location}>London, United Kingdom</p>
 			</div>
 			<p>&Prime;Front-end developer and avid reader.&Prime;</p>
-			<ul className={styles['social-links']}>
+			<ul class={styles['social-links']}>
 				<li>
 					<a
 						href='#'
-						className='btn btn--primary btn--full'
+						class='btn btn--primary btn--full'
 						rel='noopener'
 						target='_blank'
 					>
@@ -30,7 +30,7 @@ export default function Profile() {
 				<li>
 					<a
 						href='#'
-						className='btn btn--primary btn--full'
+						class='btn btn--primary btn--full'
 						rel='noopener'
 						target='_blank'
 					>
@@ -40,7 +40,7 @@ export default function Profile() {
 				<li>
 					<a
 						href='#'
-						className='btn btn--primary btn--full'
+						class='btn btn--primary btn--full'
 						rel='noopener'
 						target='_blank'
 					>
@@ -50,7 +50,7 @@ export default function Profile() {
 				<li>
 					<a
 						href='#'
-						className='btn btn--primary btn--full'
+						class='btn btn--primary btn--full'
 						rel='noopener'
 						target='_blank'
 					>
@@ -60,7 +60,7 @@ export default function Profile() {
 				<li>
 					<a
 						href='#'
-						className='btn btn--primary btn--full'
+						class='btn btn--primary btn--full'
 						rel='noopener'
 						target='_blank'
 					>

@@ -4,16 +4,10 @@ import styles from './Profile.module.css';
 export default function Profile() {
 	return (
 		<div class={styles.profile}>
-			<img
-				src={avatarImg}
-				class={styles.image}
-				width={80}
-				height={80}
-				alt="Jessica Randall"
-			/>
+			<img src={avatarImg} width={80} height={80} alt="Jessica Randall" />
 			<div class={styles['title-box']}>
-				<h2 class={styles.title}>Jessica Randall</h2>
-				<p class={styles.location}>London, United Kingdom</p>
+				<h2>Jessica Randall</h2>
+				<p>London, United Kingdom</p>
 			</div>
 			<p>&Prime;Front-end developer and avid reader.&Prime;</p>
 			<ul class={styles['social-links']}>
